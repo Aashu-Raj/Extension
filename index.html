@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL2PDF</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <h1>URL2PDF</h1>
+  </header>
+  <main>
+    <form action="#">
+      <label for="website-url">Website URL:</label>
+      <input type="text" id="website-url" name="website_url" placeholder="https://xyz.com">
+      <div class="orientation">
+        <label for="landscape">Landscape:</label>
+        <input type="radio" id="landscape" name="orientation" value="landscape">
+        <label for="portrait">Portrait:</label>
+        <input type="radio" id="portrait" name="orientation" value="portrait" checked>
+      </div>
+      <div class="format">
+        <label for="pdf">PDF:</label>
+        <input type="radio" id="pdf" name="format" value="pdf" checked>
+        </div>
+      <button type="submit">Convert</button>
+    </form>
+  </main>
+  <footer>
+    <p>Feedback  |   About</p>
+  </footer>
+</body>
+</html>

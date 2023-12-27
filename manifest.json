@@ -1,0 +1,10 @@
+{
+    "name": "URL to PDF",
+    "description": "Convert url to pdf",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "pdf.png"
+    }
+}
