@@ -8,12 +8,12 @@ body {
 header {
   background-color: #333;
   color: #fff;
-  padding: 20px;
+  padding: 5px;
   text-align: center;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 20px;
   margin: 0;
 }
 
@@ -59,6 +59,7 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 18px;
 }
 
 footer {
@@ -70,4 +71,5 @@ footer {
 
 footer p {
   margin: 0;
+  font-size: 15px;
 } 
