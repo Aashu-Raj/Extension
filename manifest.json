@@ -1,10 +1,24 @@
 {
-    "name": "URL to PDF",
+    "manifest_version": 3,
+    "name": "URL to PDF2what",
     "description": "Convert url to pdf",
     "version": "1.0",
-    "manifest_version": 3,
+
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "downloads",
+        "storage"
+    ],
+    
     "action": {
         "default_popup": "index.html",
         "default_icon": "pdf.png"
-    }
+    },
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["extension.js"]
+        }
+      ]
 }
