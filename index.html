@@ -13,6 +13,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script> 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script> -->
   
+  
 </head>
 
 <body>
@@ -20,9 +21,9 @@
     <h1>URL2PDF</h1>
   </header>
   <main>
-    <form method="post" action="https://v2.convertapi.com/convert/htm/to/pdf?Secret=your-api-secret">
+    <form action="https://v2.convertapi.com/convert/web/to/pdf?Secret=tFfHtvPtryHdtqzo&download=attachment" method="post" enctype="multipart/form-data">
       <label for="website-url">Website URL:</label>
-      <input type="text" id="website-url" name="website_url" placeholder="https://xyz.com">
+      <input type="url" id="url" name="website_url" placeholder="https://xyz.com">
       <div class="orientation">
         <label for="landscape">Landscape:</label>
         <input type="radio" id="landscape" name="orientation" value="landscape">
@@ -39,6 +40,6 @@
   <footer>
     <p>Feedback | About</p>
   </footer>
-  <script src="./extension.js"></script>
+  <script src="./extension.js" type="module"></script>
 </body>
 </html>
