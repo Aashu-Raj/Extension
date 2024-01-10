@@ -28,7 +28,7 @@ async function apicall(weburl) {
   const url = `https://web-capture2.p.rapidapi.com/pdf?url=${weburl}&height=780&width=1024`;const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '66a4888b03msh548ee25e691eb51p1b8bb3jsn3014e22c0aed',
+		'X-RapidAPI-Key': '11c2093ce7msh3b0d31bee1ae73fp1aacb9jsn2308373b5b0a',
 		'X-RapidAPI-Host': 'web-capture2.p.rapidapi.com',
     'Content-Type': 'application/pdf'
 	}
